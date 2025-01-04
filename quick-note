@@ -1,0 +1,11 @@
+#!/data/data/com.termux/files/usr/bin/bash
+# -*- coding: UTF-8 -*-
+export ME=$HOME/storage/documents/Me
+
+QUICK_NOTE=$HOME/workspace/script-fu/neovim-quick-note.sh
+/data/data/com.termux/files/usr/bin/bash $QUICK_NOTE
+
+WEEKLY_REVIEW=$HOME/workspace/script-fu/neovim-weekly-review.sh
+/data/data/com.termux/files/usr/bin/bash $WEEKLY_REVIEW `date +%W`
+
+sleep 10

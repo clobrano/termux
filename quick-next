@@ -1,0 +1,7 @@
+#!/data/data/com.termux/files/usr/bin/bash
+# -*- coding: UTF-8 -*-
+
+QUICK_TASK=$HOME/workspace/script-fu/taskwarrior-quick-next.sh
+/data/data/com.termux/files/usr/bin/bash $QUICK_TASK
+
+sleep 3
